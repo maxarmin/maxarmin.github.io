@@ -1,0 +1,10 @@
+<changelog>
+	<changes>
+		<version>0.1.0</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>
+	<changes>
+		<version>0.1.1</version>
+		<change>Fixing few classes that I've missed.</change>
+	</changes>
