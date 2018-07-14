@@ -11,7 +11,9 @@
 			-->
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+			<package>mobilesubstrate</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Bypasses Maybank jailbreak detection.</description>
 	</descriptionlist>
