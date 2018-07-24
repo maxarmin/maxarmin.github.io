@@ -6,44 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max Armin's Repo</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body style="background-color:#344755;">
-    <div></div>
-    <div class="container">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-search" style="background-color:#ffffff;">
-            <div class="container"><a class="navbar-brand" href="#">Max Armin's Repo</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse"
-                    id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Tweaks</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-                    <form class="form-inline mr-auto" target="_self">
-                        <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                    </form>
+    <div>
+        <div class="header-blue">
+            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                <div class="container"><a class="navbar-brand" href="index.html" style="font-family:Roboto, sans-serif;">Max Armin's Repo</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div
+                        class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link disabled" style="font-family:Roboto, sans-serif;">About</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link disabled" style="font-family:Roboto, sans-serif;">Tweaks</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="font-family:Roboto, sans-serif;">Dropdown </a>
+                                <div class="dropdown-menu" role="menu"><a class="dropdown-item disabled" role="presentation">First Item</a><a class="dropdown-item disabled" role="presentation">Second Item</a><a class="dropdown-item disabled" role="presentation">Third Item</a></div>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+        </nav>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                    <h1 style="font-weight:bold;font-family:Roboto, sans-serif;">Welcome to Max Armin's Repo.</h1>
+                    <p style="font-family:Roboto, sans-serif;font-weight:normal;">There's basically nothing yet, but you can click the button below:</p><a class="btn btn-light btn-lg action-button" role="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://maxarmin.github.io/" style="font-family:Roboto, sans-serif;background-color:#745d53;color:#ebeff1;font-weight:bold;">Add to Cydia</a>
+                    <a
+                        class="btn btn-light disabled btn-lg action-button" role="button" href="#" style="font-family:Roboto, sans-serif;background-color:#2e8b80;margin-left:30px;font-weight:bold;">Add to Sileo</a>
+                </div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                    <div class="iphone-mockup"><img src="assets/img/IPhone_X_vector.svg" style="width:266px;"><img src="assets/img/Untitled.svg" style="margin-top:-578px;width:116px;margin-right:78px;"></div>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
-    <div class="container">
-        <div style="padding:118px;"></div>
     </div>
-    <div class="container">
-        <p class="lead" style="color:#ffffff;font-weight:bold;font-size:37px;">Welcome to Max Armin's Repo.</p>
-        <p class="lead" style="color:#ffffff;font-weight:normal;">There's nothing here yet, but you can use the button below:</p>
-    </div>
-    <div class="container"><a class="btn btn-dark" role="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://maxarmin.github.io/" style="background-color:#c76e6e;">Add to Cydia</a></div>
-    <div class="container"><img src="assets/img/IPhone_X_vector.svg" style="height:397px;width:195px;margin-left:672px;margin-top:-261px;"></div>
-    <div class="container">
-        <nav class="navbar navbar-light navbar-expand-md fixed-bottom" style="background-color:#ffffff;">
-            <div class="container"><a class="navbar-brand" href="#" style="font-weight:bold;">All Rights Reserved. 2018.</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-2"></button>
-                <div class="collapse navbar-collapse" id="navcol-2"></div>
+    <div class="footer-basic" style="background-color:#e5e5e5;">
+        <footer>
+            <div class="social">
+                <h2 style="font-family:Roboto, sans-serif;font-weight:bold;">All Rights Reserved.</h2>
             </div>
-        </nav>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html" style="font-family:Roboto, sans-serif;">Home</a></li>
+                <li class="list-inline-item"><a style="font-family:Roboto, sans-serif;">Services</a></li>
+                <li class="list-inline-item"><a style="font-family:Roboto, sans-serif;">About</a></li>
+                <li class="list-inline-item"><a style="font-family:Roboto, sans-serif;">Terms</a></li>
+                <li class="list-inline-item"><a style="font-family:Roboto, sans-serif;">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright" style="font-family:Roboto, sans-serif;font-weight:bold;color:#318192;">Max Armin's Repo © 2018</p>
+        </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
