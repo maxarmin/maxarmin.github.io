@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Armin's Repo</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.querystring.js"></script>
-	<script type="text/javascript" src="js/data-loader-engine.js"></script>
-	<script type="text/javascript" src="js/ios_version_check.js"></script>
-	<script type="text/javascript" src="js/touch.js"></script>
-	<style>
-		@media (max-width: 767px) {
-			body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
-		}
-		.jumbotron-bg {
-			background: green
-		}
-	</style>
-	<script type="text/javascript">
+  <title>/maxarmin/</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.querystring.js"></script>
+  <script type="text/javascript" src="js/data-loader-engine.js"></script>
+  <script type="text/javascript" src="js/ios_version_check.js"></script>
+  <script type="text/javascript" src="js/touch.js"></script>
+  <style>
+	@media (max-width: 767px) {
+		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
+	}
+	.jumbotron-bg {
+		background: green
+	}
+  </style>
+  <script type="text/javascript">
+
 	bundleid = $.QueryString['p'];
 
     var contentBlocks = 	{
@@ -155,45 +152,56 @@
     }); // ready
   </script>
 </head>
+<body>
+<br />
 
-<body style="background-image:-webkit-linear-gradient(left, #642B73 0%,#C6426E 100%);font-family:Amiko, sans-serif;">
-    <div id="packageInformation" style="font-family:Amiko, sans-serif;">
-        <div id="packageHeader" class="container" style="display:none">
-            <div class="jumbotron">
-                <h1 id="packageName" style="font-family:Amiko, sans-serif;font-weight:bold;"></h1>
-                <p style="font-family:Amiko, sans-serif;">brought to you by <strong>Max Armin's Repo</strong></p>
-            </div>
-        </div>
-        <div class="container">
-            <div id="compatibilityCheck" class="alert" style="font-family:Amiko, sans-serif;"></div>
-        </div>
-        <div class="container">
-            <h5 style="font-family:Amiko, sans-serif;font-weight:bold;color:rgb(255,255,255);">DESCRIPTION</h5>
-            <ul class="list-group" id="descriptionList">
-                <li class="list-group-item" id="screenshotsLink"></li>
-            </ul>
-        </div>
-        <div class="container">
-            <h5 style="font-weight:bold;font-family:Amiko, sans-serif;color:rgb(255,255,255);">IN THIS VERSION<span id="versionBadge" class="badge"></span></h5>
-            <ul class="list-group" id="changesList">
-                <li class="list-group-item" id="changelogLink"><span></span></li>
-            </ul>
-        </div>
-        <div class="container" id="dependenciesContainer">
-            <h5 style="font-weight:bold;color:rgb(255,255,255);">DEPENDENCIES</h5>
-            <ul class="list-group" id="dependencyList"></ul>
-        </div>
-        <div class="container" id="externalLinksContainer">
-            <h5 style="color:rgb(255,255,255);font-weight:bold;">LINKS</h5>
-            <ul class="list-group" id="externalLinksList"></ul>
-        </div>
-    </div>
-    <div id="packageError" style="display:none">
-        <div class="container">
-            <div class="alert alert-danger" role="alert"><span><strong>Uh oh!</strong>&nbsp;The package you're trying to view is not hosted on this repo.</span></div>
-        </div>
-    </div>
-	
+<div id="packageInformation">
+
+	<div id="packageHeader" class="container" style="display:none">
+		<div class="jumbotron">
+			<h1 id="packageName"></h1>
+			<p>brought to you by Max Armin</p>
+		</div>
+	</div>
+
+	<div class="container">
+	  <div id="compatibilityCheck" class="alert"></div>
+	</div>
+
+	<div class="container">
+		<h5>DESCRIPTION</h5>
+		<ul id="descriptionList" class="list-group">
+			<li id="screenshotsLink" />
+		</ul>
+	</div>
+
+	<div class="container">
+		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
+		<ul id="changesList" class="list-group">
+			<li id="changelogLink" />
+		</ul>
+	</div>
+	<div class="container" id="dependenciesContainer">
+		<h5>DEPENDENCIES</h5>
+		<ul id="dependencyList" class="list-group">
+		</ul>
+	</div>
+
+	<div class="container" id="externalLinksContainer">
+		<h5>LINKS</h5>
+		<ul id="externalLinksList" class="list-group">
+		</ul>
+	</div>
+
+</div>
+<div id="packageError" style="display:none">
+	<div class="container">
+	  <div class="alert alert-danger">
+		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
+	  </div>
+	</div>
+</div>
+
 <script type="text/javascript">
    function setAnchorTargets() {
      // if on Cydia, set link targets to _blank
@@ -239,17 +247,16 @@
 
     }); // ready
 
-</script>	
-	
-    <div id="contactInfo">
-        <div class="container">
-            <h5 style="color:rgb(255,255,255);font-weight:bold;">CONTACT</h5>
-            <ul class="list-group" id="repoFooterLinks"></ul>
-        </div>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
-</body>
+</script>
 
+<div id="contactInfo">
+	<div class="container">
+		<h5>CONTACT</h5>
+		<ul class="list-group" id="repoFooterLinks">
+		</ul>
+	</div>
+</div>
+
+
+</body>
 </html>
