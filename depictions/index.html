@@ -158,39 +158,52 @@
 
 <body style="background-image:-webkit-linear-gradient(left, #642B73 0%,#C6426E 100%);font-family:Amiko, sans-serif;">
     <div id="packageInformation" style="font-family:Amiko, sans-serif;">
-        <div id="packageHeader" class="container" style="display:none">
+        <div id="packageHeader" class="container">
             <div class="jumbotron">
                 <h1 id="packageName" style="font-family:Amiko, sans-serif;font-weight:bold;"></h1>
                 <p style="font-family:Amiko, sans-serif;">brought to you by <strong>Max Armin's Repo</strong></p>
             </div>
         </div>
         <div class="container">
-            <div id="compatibilityCheck" class="alert" style="font-family:Amiko, sans-serif;"></div>
+            <h5 style="color:rgb(255,255,255);font-weight:bold;">COMPATIBILITY</h5>
+            <div class="jumbotron">
+                <div id="compatibilityCheck" class="alert" style="font-family:Amiko, sans-serif;"></div>
+            </div>
         </div>
         <div class="container">
             <h5 style="font-family:Amiko, sans-serif;font-weight:bold;color:rgb(255,255,255);">DESCRIPTION</h5>
-            <ul class="list-group" id="descriptionList">
-                <li class="list-group-item" id="screenshotsLink"></li>
-            </ul>
+            <div class="jumbotron">
+                <ul class="list-group" id="descriptionList">
+                    <li class="list-group-item" id="screenshotsLink"></li>
+                </ul>
+            </div>
         </div>
         <div class="container">
-            <h5 style="font-weight:bold;font-family:Amiko, sans-serif;color:rgb(255,255,255);">IN THIS VERSION<span id="versionBadge" class="badge"></span></h5>
-            <ul class="list-group" id="changesList">
-                <li class="list-group-item" id="changelogLink"><span></span></li>
-            </ul>
+            <h5 style="font-weight:bold;font-family:Amiko, sans-serif;color:rgb(255,255,255);">IN THIS VERSION<small class="invisible">Text</small><span id="versionBadge" class="badge"></span></h5>
+            <div class="jumbotron">
+                <ul class="list-group" id="changesList">
+                    <li class="list-group-item" id="changelogLink"><span></span></li>
+                </ul>
+            </div>
         </div>
         <div class="container" id="dependenciesContainer">
             <h5 style="font-weight:bold;color:rgb(255,255,255);">DEPENDENCIES</h5>
-            <ul class="list-group" id="dependencyList"></ul>
+            <div class="jumbotron">
+                <ul class="list-group" id="dependencyList"></ul>
+            </div>
         </div>
         <div class="container" id="externalLinksContainer">
             <h5 style="color:rgb(255,255,255);font-weight:bold;">LINKS</h5>
-            <ul class="list-group" id="externalLinksList"></ul>
+            <div class="jumbotron">
+                <ul class="list-group" id="externalLinksList"></ul>
+            </div>
         </div>
     </div>
     <div id="packageError" style="display:none">
         <div class="container">
-            <div class="alert alert-danger" role="alert"><span><strong>Uh oh!</strong>&nbsp;The package you're trying to view is not hosted on this repo.</span></div>
+            <div class="jumbotron">
+                <div class="alert alert-danger" role="alert"><span><strong>Uh oh!</strong>&nbsp;The package you're trying to view is not hosted on this repo.</span></div>
+            </div>
         </div>
     </div>
 	
@@ -244,7 +257,9 @@
     <div id="contactInfo">
         <div class="container">
             <h5 style="color:rgb(255,255,255);font-weight:bold;">CONTACT</h5>
-            <ul class="list-group" id="repoFooterLinks"></ul>
+            <div class="jumbotron">
+                <ul class="list-group" id="repoFooterLinks"></ul>
+            </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
