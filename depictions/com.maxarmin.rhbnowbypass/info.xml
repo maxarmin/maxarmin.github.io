@@ -1,7 +1,7 @@
 <package>
 	<id>com.maxarmin.rhbnowwbypass</id>
 	<name>RHBNow Bypass</name>
-	<version>1.0/version>
+	<version>1.0<version>
 	<compatibility>
 		<firmware>
 			<maxiOS>12.2</maxiOS>
@@ -14,11 +14,11 @@
 	<dependencies>
 	</dependencies>
 	<descriptionlist>
-		<description>Bypasses RHBNow jailbreak detection.</description>
+		<description>Bypasses RHBNow jailbreak detection. Currently not working. Do not use until updated.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixing few classes that I've missed.</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links></links>
 </package>
