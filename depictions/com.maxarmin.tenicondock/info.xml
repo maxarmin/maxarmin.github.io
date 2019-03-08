@@ -1,0 +1,24 @@
+<package>
+	<id>com.maxarmin.tenicondock</id>
+	<name>TenIconDock</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>13</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>Supposedly enables 10 icons on the dock. Nothing to configure.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links></links>
+</package>
