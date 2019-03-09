@@ -1,0 +1,24 @@
+<package>
+	<id>com.syahmi.mbjbpass</id>
+	<name>Maybank JB Bypass</name>
+	<version>0.1.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>11.4</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>Bypasses Maybank jailbreak detection.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Fixing few classes that I've missed.</change>
+	</changelog>
+	<links></links>
+</package>

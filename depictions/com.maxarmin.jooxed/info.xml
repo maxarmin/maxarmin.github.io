@@ -1,0 +1,24 @@
+<package>
+	<id>com.maxarmin.jooxed</id>
+	<name>JOOXed</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>11.4</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>Bypasses JOOX jailbreak detection and uhh... other stuffs. No options to configure.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Forgetting a class in allowing the Hi-Fi features</change>
+	</changelog>
+	<links></links>
+</package>
