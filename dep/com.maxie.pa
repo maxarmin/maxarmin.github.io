@@ -1,0 +1,93 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#2cb1be",
+    "headerImage": "",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>pa</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": ""
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "maxie"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.2"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial release.</li>\n</ul>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
