@@ -46,6 +46,22 @@ Description: Mods 30 Day Fitness Challenge app for premium. Enable LocaliAPStore
 Author: maxie
 Name: 30DayFitnessMod
 
+Package: com.maxie.boomboostermod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.boomboostermod_1.0_iphoneos-arm.deb
+Size: 2710
+MD5sum: ae61de3e5f144a680fe489622d487c8a
+SHA1: fc00c82b9249c58bb765d809f9d8e1e60f12df2a
+SHA256: 373361b4c47d752bfa326482c9dd5c4c935808e3a1534021def393c6238a455a
+Section: Tweaks
+Description: Mods Boom Bass Booster app. Not for arm64e devices.
+Author: maxie
+Name: Boom Booster Mod
+
 Package: com.maxie.everalbummod
 Version: 1.0
 Architecture: iphoneos-arm
