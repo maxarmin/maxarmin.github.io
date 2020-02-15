@@ -1,0 +1,224 @@
+Package: com.maxarmin.calmhack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxarmin
+Installed-Size: 132
+Depends: mobilesubstrate
+Filename: ./debs/com.maxarmin.calmhack_1.0_iphoneos-arm.deb
+Size: 6500
+MD5sum: bd3bb23719ca226366f561fc613cf04b
+SHA1: 5392f1dc06840c37257be643c2b605c619150987
+SHA256: 8e7959c83ec2a3c46d1d8313f80d592bbc90e9bf1a3cb21e83d3888fccfea08b
+Section: Tweaks
+Description: This tweak enables Calm Premium subscription for free. Nothing to configure.
+Author: maxarmin
+Name: Calm Hack
+
+Package: com.maxarmin.tenicondock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxarmin
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxarmin.tenicondock_1.0_iphoneos-arm.deb
+Size: 2552
+MD5sum: 5ab59f5945c99575c053adf3dbc32d97
+SHA1: d90211a17d5d83bdc26122b2e72205446b9d506f
+SHA256: b04392683e889ffb3b9a9f2d124eab1e9275b40c8345595ef910ae0c820dab14
+Section: Tweaks
+Description: Supposedly enables 10 icons on the dock. Nothing to configure.
+Author: maxarmin
+Name: TenIconDock
+
+Package: com.maxie.30dayfitnessmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.30dayfitnessmod_1.0_iphoneos-arm.deb
+Size: 2668
+MD5sum: 4579dce521a7064ea8c1543547fd1068
+SHA1: fda6c167811a1aa339d90261ef09615602183b4d
+SHA256: 0367a5b91ff83297064b86a388778a0ef7156413f19c558bc6441a673578f10d
+Section: Tweaks
+Description: Mods 30 Day Fitness Challenge app for premium. Enable LocaliAPStore together to make it work.
+Author: maxie
+Name: 30DayFitnessMod
+
+Package: com.maxie.everalbummod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.everalbummod_1.0_iphoneos-arm.deb
+Size: 2510
+MD5sum: 690ae6951b6e313993d65d6f2d10b1ef
+SHA1: 7fb39ff8c1331d445df50492a1fd2bbccc3738c1
+SHA256: e8a43baecafd41da74922bf068739bba78047af4c9f4ccbfd72904fee13578a3
+Section: Tweaks
+Description: Mods Ever Album app. Arm64e devices are incompatible.
+Author: maxie
+Name: Ever Album Mod
+
+Package: com.maxie.evernotemod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.evernotemod_1.0_iphoneos-arm.deb
+Size: 2754
+MD5sum: 35fb1ce65428e23b47781a66e7142985
+SHA1: 7b2746c0456b7a6c7df33a94c7a344e8e20f5c08
+SHA256: 3cf4c2e73ffd78ec481b7a98509968d7a639ca4e42704f5bef79375284d3e509
+Section: Tweaks
+Description: Evernote Premium Mod
+Author: maxie
+Name: Evernote Mod
+
+Package: com.maxie.jooxmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.jooxmod_1.0_iphoneos-arm.deb
+Size: 3578
+MD5sum: 1a1744c72c78caadc80016596d42b47c
+SHA1: 39169448817b8cbe3bd8ce055c9917fd1ca3e7de
+SHA256: cedbb2c33f9fe45a040faffe0c106e581849680bdf2f330f00632ec14248f440
+Section: Tweaks
+Description: JOOX VIP features unlocked.
+Author: maxie
+Name: JOOX Mod
+
+Package: com.maxie.maybankpwn
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.maybankpwn_1.0_iphoneos-arm.deb
+Size: 2746
+MD5sum: 330bf74b750d6438e02adaaa176a179c
+SHA1: 78929b644822aec979dffc453198c9a3acb8baf7
+SHA256: 159042293c67bd16afc6569e3eabc079382ff0aab95846f6db4caa94cf0aa780
+Section: Tweaks
+Description: Pwns (Bypasses) jailbreak detection of Maybank MY app.
+Author: maxie
+Name: JBPwn: Maybank
+
+Package: com.maxie.photomathmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.photomathmod_1.0_iphoneos-arm.deb
+Size: 2566
+MD5sum: c8a8853382794c8bd991b13dfd3dfbc0
+SHA1: b0961572a19cb9391ceb570d1040b8eefcc480fe
+SHA256: 02cc725142d216c84deeaa94948e2d3f40946ae7af05978aad3b0001cd3f9c0a
+Section: Tweaks
+Description: Photomath Plus features unlocked.
+Author: maxie
+Name: Photomath Mod
+
+Package: com.maxie.pocketmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.pocketmod_1.0_iphoneos-arm.deb
+Size: 2484
+MD5sum: 21c05c358f573b2cc1b0f46aeaf45d40
+SHA1: c59077ea3a5cedd4d6fb8ec48bc47da1d6c3ccd1
+SHA256: 23db8f4ed8674bce8cff53b7c8ab5c37c4e0ff8b82aef60a8916f0bb72f53788
+Section: Tweaks
+Description: Pocket premium features unlocked.
+Author: maxie
+Name: Pocket Mod
+
+Package: com.maxie.smulemod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.smulemod_1.0_iphoneos-arm.deb
+Size: 2730
+MD5sum: 606364b3c2cc3a91241cbafc3b03e25e
+SHA1: 0592dae2c600819d342027b79c7b1c6254f3707a
+SHA256: a0016824b45b60d3ccd66865d8ad729948318d0f9a21ca11944454257d5022b4
+Section: Tweaks
+Description: Smule premium features unlocked.
+Author: maxie
+Name: Smule Mod
+
+Package: com.maxie.superlivepwn
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.superlivepwn_1.0_iphoneos-arm.deb
+Size: 2544
+MD5sum: 08eb64f4b07376853f5375f527e413e3
+SHA1: b9636420a9d708f701abc8a52c3b566cb4828838
+SHA256: 685b2691ae5a89126084669fdaa1352bb819ac5165758828ff711249db689042
+Section: Tweaks
+Description: Pwns (Bypasses) jailbreak detection in SuperLive Plus app.
+Author: maxie
+Name: JBPwn: SuperLive Plus
+
+Package: com.maxie.tidemeditationmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.tidemeditationmod_1.0_iphoneos-arm.deb
+Size: 2660
+MD5sum: c4e12d945b552dbcd817d34c854dc4aa
+SHA1: 026ccc137b1582e1d3ab12c5518948ad2a4bb146
+SHA256: ea95beb0e5a969a3dc0d87d30abc136fb961f0f44a5315b1c0b2cd462b68073c
+Section: Tweaks
+Description: Tide Sleep Focus Meditation mod. To use the premium features, register or login as guest. That's all.
+Author: maxie
+Name: Tide Meditation Mod
+
+Package: com.maxie.vscoxmod
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.maxie.vscoxmod_1.0_iphoneos-arm.deb
+Size: 2704
+MD5sum: 6e2341cb96556ec80fc1aed0630307c0
+SHA1: 325f9e8eabf06d0c788748b5350bd87474f29593
+SHA256: 593d273871f38d65949a57e1b9bd21a8894b7dbb45fcc771b43409f1e32e33ff
+Section: Tweaks
+Description: VSCO X Subscription unlocked. (internal use only)
+Author: maxie
+Name: VSCO X Mod
+
+Package: com.various.touchnpwn
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: maxie
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.various.touchnpwn_1.0_iphoneos-arm.deb
+Size: 5306
+MD5sum: 13c2dd77b4dff8c7827427d92a94b956
+SHA1: f9a7f87e7cafcae30f8ac8ff08b6afba61f6e861
+SHA256: 7eb1be9ecb30f47d00d777ff2e9aa126af429bd8295d4853ecd2d7a2e71ab019
+Section: Tweaks
+Description: Pwns (Bypasses) jailbreak detection in Touch 'n Go app. Not supported for arm64e (A12) devices yet.
+Author: maxie, EggyEgg, 39Cents, hirakujira
+Name: JBPwn: Touch 'n Go
+
