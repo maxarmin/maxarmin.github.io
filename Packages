@@ -110,22 +110,6 @@ Description: JOOX VIP features unlocked.
 Author: maxie
 Name: JOOX Mod
 
-Package: com.maxie.maybankpwn
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: maxie
-Installed-Size: 116
-Depends: mobilesubstrate
-Filename: ./debs/com.maxie.maybankpwn_1.0_iphoneos-arm.deb
-Size: 2746
-MD5sum: 330bf74b750d6438e02adaaa176a179c
-SHA1: 78929b644822aec979dffc453198c9a3acb8baf7
-SHA256: 159042293c67bd16afc6569e3eabc079382ff0aab95846f6db4caa94cf0aa780
-Section: Tweaks
-Description: Pwns (Bypasses) jailbreak detection of Maybank MY app.
-Author: maxie
-Name: JBPwn: Maybank
-
 Package: com.maxie.photomathmod
 Version: 1.0
 Architecture: iphoneos-arm
